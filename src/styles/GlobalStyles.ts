@@ -2,24 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
-
-/* @import url('link do google fonts'); */
-
 *{
     margin: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-html, #root, body{
-    height: 100vh;
-}
-
 *, button, input {
-    font-family: 'Poppins', sans-serif;
-
-    border: 0;
-    outline: 0;
 
     /* width */
 ::-webkit-scrollbar {
